@@ -1,0 +1,18 @@
+{
+  "name": "resgen.js",
+  "version": "1.0.0",
+  "description": "A tool to create c++ resource files in form of header & source files and thus are completely portable",
+  "main": "lib/index.js",
+  "bin": {
+    "resgen": "lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrik Stutz",
+  "license": "MPLv2",
+  "dependencies": {
+    "async": "^0.9.0",
+    "minimist": "^1.1.1"
+  }
+}
